@@ -9,6 +9,3 @@ spring:
       allowOverride: true
       overrideNone: true
       overrideSystemProperties: false
-bankreg:
-  port: 12000
-  hostname: localhost
