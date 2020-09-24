@@ -1,7 +1,7 @@
 server:
   port: 10000
 bank:
-  name: SDG
+  name: SDG-ADIL
 
 spring:
   cloud:
