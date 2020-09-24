@@ -12,5 +12,4 @@ spring:
 bankreg:
   port: 12000
   hostname: localhost
-  
-ba: ZE
+ 
