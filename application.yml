@@ -4,9 +4,10 @@ bank:
 name: SDG-BANK-ADIL
 
 sdg-mysql:
-  port: 3333
+  port: 3306
   ip: 127.0.0.1
   db: sdg_bank
+  args: useSSL=false&serverTimezone=Europe/Warsaw
   
 spring:
   cloud:
