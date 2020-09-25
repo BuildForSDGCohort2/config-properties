@@ -14,18 +14,6 @@ spring:
       allowOverride: true
       overrideNone: true
       overrideSystemProperties: false
-   datasource:
-    url: "jdbc:mysql://${sdg-mysql.ip}:${sdg-mysql.port}/${sdg-mysql.db}"
-    username: "root"
-    password: ""
-    driver-class-name: com.mysql.jdbc.Driver
-  jpa:
-    show-sql: true
-    hibernate:
-      ddl-auto: create
-    properties:
-      hibernate:
-        dialect: org.hibernate.dialect.MySQL57Dialect
 bankreg:
   port: 12000
   hostname: localhost
